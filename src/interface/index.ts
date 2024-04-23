@@ -7,7 +7,7 @@ export interface InputProps {
     style: number;
     cols?: number;
     rows?: number;
-    onClick?: () => void;
+    onClick?: (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void;
 }
 
 export interface Button {
